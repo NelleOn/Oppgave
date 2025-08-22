@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(201, 184, 172);
+}
+h1,h2,li,p{
+    color: rgb(14, 45, 32);
+    font-family: "nunito";
+    
+}
+.center-content {
+    text-align: center;
+}
+.center-content ul{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+.center-content img{
+    margin:20px 0;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
